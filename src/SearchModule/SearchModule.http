@@ -1,0 +1,6 @@
+@SearchModule_HostAddress = http://localhost:5186
+
+GET {{SearchModule_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
