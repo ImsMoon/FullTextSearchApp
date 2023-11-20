@@ -17,14 +17,22 @@ namespace SearchModule.Data
             _connectionString = connectionString;
         }
 
-        public async Task<IReadOnlyList<User>> SearchInfo(string serchText, CancellationToken cancellationToken = default)
+        public async Task<IReadOnlyList<User>> SearchInfo(string searchText, CancellationToken cancellationToken = default)
         {
             using var connection = new SqlConnection(_connectionString);
 
             await connection.OpenAsync(cancellationToken);
-            string sqlQuery = "SELECT * FROM Users WHERE CONTAINS((first_name, last_name, email, phone), @SearchTerm)";
+            string sqlQuery = "";
+            var isMultiple = searchText.Split(' ').Length > 1;
+
+            if(isMultiple){
+                sqlQuery = "SELECT TOP 5 * FROM Users WHERE FREETEXT((first_name, last_name, email, phone), @SearchTerm)";
+            }else{
+
+                sqlQuery = "SELECT TOP 5 * FROM Users WHERE CONTAINS((first_name, last_name, email, phone), @SearchTerm)";
+            }
             using var command = new SqlCommand(sqlQuery,connection);
-            command.Parameters.AddWithValue("@SearchTerm", $"\"*{serchText}*\"");
+            command.Parameters.AddWithValue("@SearchTerm", $"\"*{searchText}*\"");
             using var reader = await command.ExecuteReaderAsync(cancellationToken);
 
             List<User> data = new List<User>();

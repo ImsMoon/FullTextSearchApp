@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SearchModule")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2445b689b4a489e30c41146678c8721c373c628a")]
 [assembly: System.Reflection.AssemblyProductAttribute("SearchModule")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SearchModule")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

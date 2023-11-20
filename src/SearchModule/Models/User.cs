@@ -12,5 +12,7 @@ namespace SearchModule.Models
         public string LastName { get; set; }
         public string Email { get; set; }
         public string Phone { get; set; }
+
+        public string FullDetails => FirstName +" "+ LastName +" | "+ Email +" |"+ Phone;
     }
 }

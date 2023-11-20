@@ -37,3 +37,4 @@ C:\Users\BS-647\Desktop\github.com\Client\Areas\HomeTask\src\SearchModule\obj\De
 C:\Users\BS-647\Desktop\github.com\Client\Areas\HomeTask\src\SearchModule\obj\Debug\net8.0\SearchModule.pdb
 C:\Users\BS-647\Desktop\github.com\Client\Areas\HomeTask\src\SearchModule\obj\Debug\net8.0\SearchModule.genruntimeconfig.cache
 C:\Users\BS-647\Desktop\github.com\Client\Areas\HomeTask\src\SearchModule\obj\Debug\net8.0\ref\SearchModule.dll
+C:\Users\BS-647\Desktop\github.com\Client\Areas\HomeTask\src\SearchModule\obj\Debug\net8.0\SearchModule.sourcelink.json

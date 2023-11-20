@@ -1,0 +1,20 @@
+<form class="example-form">
+  <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>Search</mat-label> <mat-label>  Stream time :{{responeTime}} ms | API Response time: {{apiInterval}} ms</mat-label>
+    <input type="text"
+           placeholder="user info"
+           aria-label="Clear"
+           matInput
+           [formControl]="myControl"
+           [matAutocomplete]="auto">
+    <mat-autocomplete #auto="matAutocomplete">
+      <mat-option *ngFor="let option of filteredOptions | async" [value]="option.fullDetails">
+        <span> Name: {{option.fullDetails}} {{option.lastName}} |</span>
+        <span> Email: {{option.email}} |</span>
+        <span> Phone: {{option.phone}}</span>
+      </mat-option>
+    </mat-autocomplete>
+  </mat-form-field>
+</form>
+
+

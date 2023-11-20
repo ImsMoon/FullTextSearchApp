@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\BS-647\\Desktop\\github.com\\Client\\Areas\\HomeTask\\src\\SearchModule\\SearchModule.csproj": {}
+    "C:\\Users\\BS-647\\Desktop\\github.com\\Client\\Areas\\HomeTask\\src\\SearchModule\\SearchModule.csproj": {}
   },
   "projects": {
-    "c:\\Users\\BS-647\\Desktop\\github.com\\Client\\Areas\\HomeTask\\src\\SearchModule\\SearchModule.csproj": {
+    "C:\\Users\\BS-647\\Desktop\\github.com\\Client\\Areas\\HomeTask\\src\\SearchModule\\SearchModule.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\BS-647\\Desktop\\github.com\\Client\\Areas\\HomeTask\\src\\SearchModule\\SearchModule.csproj",
+        "projectUniqueName": "C:\\Users\\BS-647\\Desktop\\github.com\\Client\\Areas\\HomeTask\\src\\SearchModule\\SearchModule.csproj",
         "projectName": "SearchModule",
-        "projectPath": "c:\\Users\\BS-647\\Desktop\\github.com\\Client\\Areas\\HomeTask\\src\\SearchModule\\SearchModule.csproj",
+        "projectPath": "C:\\Users\\BS-647\\Desktop\\github.com\\Client\\Areas\\HomeTask\\src\\SearchModule\\SearchModule.csproj",
         "packagesPath": "C:\\Users\\BS-647\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\BS-647\\Desktop\\github.com\\Client\\Areas\\HomeTask\\src\\SearchModule\\obj\\",
+        "outputPath": "C:\\Users\\BS-647\\Desktop\\github.com\\Client\\Areas\\HomeTask\\src\\SearchModule\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
